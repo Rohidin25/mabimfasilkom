@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+
+}
+
+/* HALAMAN INDEX */
+nav {
+    background-color: #4d70b6;
+    overflow: hidden;
+
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    float: right;
+    margin: auto;
+
+
+}
+
+nav a :hover {
+    text-decoration: none;
+    background: black;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    float: right;
+}
+
+img {
+    float: left;
+}
+
+section .wa {
+    width: 20px;
+    margin-left: 49%;
+}
+
+
+audio {
+    border: 5px;
+    border-color: #4d70b6;
+}
+
+video {
+    width: 50%;
+
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 3%;
+}
+
+section {
+    background-color: #4d70b6;
+    color: white;
+}
+
+/* HALAMAN LOGIN */
+.warp {
+    padding: 50px 400px 50px 400px;
+}
+
+.background {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.bg-login {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+input[type=button] {
+    background-color: #4d70b6;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px 10px 0px;
+    display: inline-block;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+input[type=button]:hover {
+    background-color: #FFFFFF;
+    color: #4d70b6;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px 10px 0px;
+    display: inline-block;
+    border: 5px solid #4d70b6;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+form a {
+    background-color: #b64d4d;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+form a:hover {
+    background-color: #FFFFFF;
+    color: #b64d4d;
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    border: 5px solid #b64d4d;
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-decoration: none;
+}
